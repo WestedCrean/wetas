@@ -1,0 +1,49 @@
+.bm-item {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 50px;
+    color: ghostwhite;
+    transition: color 0.2s;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: 4vh;
+}
+
+.bm-item:hover {
+    color: rebeccapurple;
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 60px;
+}
+
+@media screen and (min-width: 771px) {
+    .bm-burger-button {
+        display: none;
+    }
+}
+
+/* burger color */
+.bm-burger-bars {
+    background: #f8f8ff;
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+    display: none;
+}
+
+.bm-cross {
+    background: ghostwhite;
+}
+
+.bm-menu {
+    background: #2f2431;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
